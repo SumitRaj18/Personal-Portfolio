@@ -1,0 +1,74 @@
+#contact{
+    min-height: calc(100vh- 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.contactPage{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+.contact-form{
+    background-color:#e8ecfc
+}
+.contactDesc{
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    box-shadow: 5px 0px 5px 5px rgba(170, 171, 178, 0.712) ;
+    background-color: white;
+
+}
+.name,.email,.message{
+    font-size: medium;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #e8ecfc;
+    box-shadow: 0px 2px 2px white;
+}
+.submit{
+    background-color: black;
+    color: #e8ecfc;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+   height: 30px;
+   width: 100px;
+   margin-bottom: 10px;
+
+}

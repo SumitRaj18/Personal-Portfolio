@@ -1,0 +1,147 @@
+.navbar{
+ height: 5rem;
+ width: 100vw;
+ margin: 0 auto;
+ padding: 1rem 2rem;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ top: 0;
+ position: sticky;
+ background-color: rgba(255, 255, 255, 0.9); ;
+ z-index: 1; 
+  color: black;
+ font-weight: 600;
+ box-shadow: 0px 0px 5px 5px rgba(170, 171, 178, 0.712) ;
+ backdrop-filter: blur(20px);
+}
+
+ nav.scrolled {
+    
+    transition: background-color 0.3s ease;
+    box-shadow: 0px;
+  }
+
+img{
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+}
+.Menubtn{
+    background-color: white;
+   color: black;
+   border-radius: 20px;
+   padding: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.Menu{
+    display: flex;
+  cursor: pointer;
+  gap: 40px;
+}
+.Menulist{
+    font-size: larger;
+}
+.Menulist:hover{
+    color: rgb(25, 63, 214);
+    border-bottom: 2px solid rgb(25, 63, 214);
+}
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color:rgba(255, 255, 255, 0.9) ;
+    border-radius: 1rem;
+    margin-left: 50px;
+}
+.mobMenu{
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+    margin-right: 30px;
+}
+.list{
+    color: black;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background-color: white;
+}
+@media screen and (max-width:500px) {
+ 
+    .mobMenu{
+        display: flex;
+        margin-left: 250px;
+    }
+    .Menu{
+        display: none;
+    }
+    .Menubtn{
+        display: none;
+    }
+    .list:hover{
+        border-bottom: 2px solid rgb(25, 63, 214);
+    }
+    .footer{
+        background-color: darkblue !important;
+        height: 470px !important;
+        display: block !important;
+        margin-top: 10px !important;
+        padding: 20px !important;
+      }
+      .aboutsec{
+        width: 100% !important;
+      }
+      .quick{
+        width: 100% !important;
+        margin-top: 10px;
+       
+      }
+      .name,.email,.message{
+        width: 80% !important;
+      }
+      .submit{
+      
+        font-size: 15px;
+        
+      }
+      .qq{
+        font-size: 20px !important;
+      }
+      .cnf{
+        font-size: 20px !important;
+      }
+      .t{
+        margin-top: 5px !important;
+      }
+      .contactinfo{
+        margin-top: 10px !important;
+      }
+      .number{
+        margin-top: 5px !important;
+      }
+      
+      
+}
+@media screen and (max-width:400px) {
+    .mobMenu{
+        display: flex;
+        margin-left: 200px;
+    }
+    .Menu{
+        display: none;
+    }
+    .Menubtn{
+        display: none;
+    }
+    .list:hover{
+        border-bottom: 2px solid rgb(25, 63, 214);
+    }
+}

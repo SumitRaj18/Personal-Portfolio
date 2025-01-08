@@ -1,0 +1,53 @@
+#about{
+    background-color: rgb(216, 230, 243);
+}
+.box{
+    height: 450px;
+    width: 30%;
+}
+.lePushReleaseFromTop span { animation-name: lePushReleaseFromTop }
+@keyframes lePushReleaseFromTop {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    30% { transform: translateY(100px) }
+}
+.bh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top:px;
+}
+.pic{
+    height: 300px;
+}
+@media screen  and (max-width:500px){
+    .box{
+        width: 60%;
+        height: 550px;
+        margin-left: 10px;
+    }
+    .pic{
+        width: 50%;
+        border-radius: 50%;
+    }
+    .bh{
+        gap: 1px;
+    }
+}
+@media screen  and (max-width:400px){
+    .box{
+        width: 60%;
+        height: 640px;
+        margin-left: 10px;
+    }
+    .pic{
+        width: 40%;
+        border-radius: 50%;
+    }
+    .bh{
+        gap: 1px;
+    }
+}

@@ -1,0 +1,34 @@
+.t{
+    margin-top: 15px;
+}
+.footer{
+    padding:1px ;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:200px;
+    background-color:darkblue;
+    color:white;
+    margin:auto;
+    padding: 50px;
+
+}
+.Foot:hover{
+    border-bottom: 1px solid white;
+    scale: 2px;
+}
+.aboutsec{
+ width: 40%;
+}
+.quick{
+    width: 30%;
+    margin-left: 20px;
+}
+.number{
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width:500){
+
+}

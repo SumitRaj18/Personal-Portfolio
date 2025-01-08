@@ -1,0 +1,123 @@
+.my{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+.hr{
+    margin-top: 2px;
+    height: px;
+}
+.hei{
+    height: 600px;
+   
+}
+.het{
+    background-color: rgb(13, 4, 68);
+    height: 220px;
+    color: white;
+}
+.sec{
+    width: 90vw;
+    margin: auto;
+    margin-top: 30px;
+}
+.see{
+    margin-top: 30px;
+}
+.can{
+    background-color: rgb(13, 4, 68);
+    height: 430px;
+    color: black;
+   
+    margin-top: 10px;
+}
+.sw{
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.ttt{
+    margin-top: 2px;
+    height: 210px;
+}
+@media screen and (max-width:500px) {
+   .hei{
+    height: 600px;
+   }
+  
+    .can{
+        height: 470px;
+       
+    }
+    .het{
+        height: 327px;
+      
+    }
+   .sec{
+    width: 100vw;
+   }
+   .see{
+    height: 500px;
+   }
+   .slick-arrow.slick-prev{
+    display: none;
+    background-color: white
+   }
+   .slick-arrow.slick-next{
+    display: none;
+    background-color: white;
+   }
+   .project-name{
+    font-size: 20px;
+    font-weight: 700;
+   }
+   .btn{
+   }
+   button{
+    height: 40px;
+    width: 50px;
+   }
+   .hr{
+    margin-top: 8px;
+}
+   .view{
+    font-size: 15px;
+    padding: 0;
+    border-radius: 10px;
+
+   }
+   .sw{
+    height: 130px;
+    object-fit: fill;
+   
+   }
+   .ttt{
+    height: 134px;
+    
+    margin-top: 6px;
+   }
+}
+@media screen and (max-width:400px)  {
+    .hei{
+        height: 650px;
+    }
+    .can{
+        height: 500px;
+    }
+    .sw{
+        height: 120px;
+    }
+    .ttt{
+        margin-top: 8px;
+        height: 126px;
+    }
+    .het{
+        height: 357px;
+    }
+    .hr{
+        margin-top: 10px;
+    }
+}
