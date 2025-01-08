@@ -107,8 +107,8 @@ const data = [
     name: `Personal Portfolio`,
     img: `${port}`,
     review: `A React-based Employee Management System with features for adding, updating, and managing employee details.`,
-    github:`https://github.com/SumitRaj18/Employee-Management-System`,
-    code:`https://employeesmanagementsys.netlify.app/`
+    github:`https://github.com/SumitRaj18/Personal-Portfolio`,
+    code:`https://sumit-kumar-personal-portfolio.netlify.app/`
   },
   
   {
