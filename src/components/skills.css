@@ -29,7 +29,7 @@
     background-color: #320273;
     border-radius: 10px;
     margin-bottom: 10px;
-    border:1px solid green;
+   
     width:65%;
     display:flex;
     align-items:center;
@@ -93,6 +93,8 @@
     .bootstrap{
         margin-left: 0px;
         height: 30px;
+        width: 30px;
+        margin-left: 18px;
         object-fit: fill;
     }
     .tailwind{
@@ -139,11 +141,16 @@
         margin-left: 17px;
         margin-top: 10px;
     }
-    .react
+    .react{
+        height: 60px;
+        width: 70px;
+        
+    }
     .bigbox{
-       width: 100vw;
+       width: 350px !important;
     }
     .first{
+
         gap: 10px;
     }
     .course{

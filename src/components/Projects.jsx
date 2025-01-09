@@ -28,7 +28,7 @@ function Projects() {
       {
         breakpoint: 768, // Mobile breakpoint
         settings: {
-          slidesToShow: 2, // Show 2 slides on mobile
+          slidesToShow: 1, // Show 1 slides on mobile
         },
       },
     ],  };

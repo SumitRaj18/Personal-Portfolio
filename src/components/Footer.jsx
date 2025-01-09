@@ -11,7 +11,8 @@ const Footer = () => {
    
     <div className='footer'>
       <div className="aboutsec"  >
-      Sumit's Portfolio
+        <h1 className='text-2xl font-bold '> Sumit's Portfolio</h1>
+     
        
       Thank you for visiting my personal portfolio website. Connect with me over socials.
             Keep Rising 🚀. Connect with me over live chat!

@@ -2,7 +2,7 @@
     background-color: rgb(216, 230, 243);
 }
 .box{
-    height: 450px;
+    height: 480px;
     width: 30%;
 }
 .lePushReleaseFromTop span { animation-name: lePushReleaseFromTop }
@@ -12,6 +12,21 @@
         opacity: 0;
     }
     30% { transform: translateY(100px) }
+}
+.but{
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 10px;
+     border-radius: 30px;
+     font-weight: 600;
+}
+.but:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.2);
 }
 .bh{
     display: flex;
@@ -26,7 +41,7 @@
 @media screen  and (max-width:500px){
     .box{
         width: 60%;
-        height: 550px;
+        height: 600px;
         margin-left: 10px;
     }
     .pic{
@@ -40,7 +55,7 @@
 @media screen  and (max-width:400px){
     .box{
         width: 60%;
-        height: 640px;
+        height: 690px;
         margin-left: 10px;
     }
     .pic{

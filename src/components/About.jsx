@@ -2,6 +2,9 @@ import React from 'react'
 import './about.css'
 import pic from '../assets/pc.avif'
 const About = () => {
+  const resume=()=>{
+    window.open("https://drive.google.com/file/d/1RytjUr8rvbX-T7aWurBlbnJacHD4okEl/view?usp=sharing","_blank")
+  }
   return (
     <section id='about'>
     <div className='mt-6'>
@@ -18,7 +21,9 @@ const About = () => {
 <div className='flex'>
 <div className='text-blue-600 font-bold'>Place</div> : <div className='ml-2'>Faridabad, India - 121003</div> 
 </div>
+
 </p>
+<button className='but' onClick={resume} >Resume</button>
       </div>
       <div className="pic">
         <img src={pic} style={{
@@ -26,6 +31,7 @@ const About = () => {
         }} alt="" />
       </div>
       </div>
+     
     </div>
     </section>
 

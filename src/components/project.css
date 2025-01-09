@@ -101,21 +101,24 @@
    }
 }
 @media screen and (max-width:400px)  {
+    #project{
+        height: 550px;
+    }
     .hei{
-        height: 650px;
+        height: 600px;
     }
     .can{
-        height: 500px;
+        height: 400px;
     }
     .sw{
-        height: 120px;
+        height: 150px;
     }
     .ttt{
-        margin-top: 8px;
-        height: 126px;
+       
+        height: 154px;
     }
     .het{
-        height: 357px;
+        height: 220px;
     }
     .hr{
         margin-top: 10px;

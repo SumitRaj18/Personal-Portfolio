@@ -6,6 +6,33 @@
     overflow: hidden;
     position: relative;
 }
+.introText{
+    font-weight:700;
+    color:#ff7c04;
+    
+}
+.introName{
+    font-weight:700;
+    color:#ff7c04;
+}
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 0px;
+    background-color: darkblue;
+    color: white;
+    
+    animation: blink 0.5s steps(25,end) infinite, cursor .1s steps(25, end);
+  }
+  @keyframes blink {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+  
+ 
+  
 .cena{
     transition: all 0.3s ease;
 }
@@ -32,8 +59,9 @@
     justify-content: center;
 }
 .hello{
-    font-size: 1.75rem;
-    font-weight: 100;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ff7c04;
 }
 
 .typing {
@@ -85,10 +113,31 @@
     #intro{
        height: 700px;
     }
+    .hello{
+        margin-top: 80px !important;
+    }
 }
 @media screen and (max-width:400px) {
+    .hello{
+        margin-top: 180px !important;
+        font-size: 40px;
+    }
+    .fb{
+      height: 100px;
+    }
     .introContent{
-        margin-top: 120px;
+        margin-top: 80px;
+    }
+    .introTxt{
+        font-size: 30px;
+        font-weight:700;
+        color:#ff7c04;
+        
+    }
+    .introName{
+        font-size: 30px;
+        font-weight:700;
+        color:#ff7c04;
     }
     .bg{
         height: 350px;
